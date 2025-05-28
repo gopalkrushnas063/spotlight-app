@@ -7,8 +7,8 @@ export default function Index() {
     <View
       style={styles.container}
     >
-      <Text style={styles.title}>Hello</Text>
-      <Image style={styles.imageSize} source={require("../../assets/images/react-logo.png")} />
+      <Text style={styles.tagline}>Hello</Text>
+      <Image source={require("../../assets/images/react-logo.png")} />
       {/* <TouchableOpacity
         onPress={() => {
           alert("Button Pressed");
